@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor de la calculadora */
+.calculator {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,    0, 0, 0.3);
+  background-color: #fff;
+}
+
+/* Pantalla de resultados */
+#result {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 24px;
+  text-align: right;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Botones */
+.buttons button {
+  width: 23%;
+  height: 50px;
+  margin: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+}
+
+/* Estilos para diferentes tipos de botones */
+.number {
+  background-color: #f0f0f0;
+}
+
+.operator {
+  background-color: #ccc;
+}
+
+.clear {
+  background-color: #ff5555;
+  color: white;
+}
+
+.equal {
+  background-color: #4caf50;
+  color: white;
+}
